@@ -133,6 +133,9 @@ height:100%;
 #immagine-lampadina{
   object-fit: cover;
 }
+#banner-main{
+  object-fit: cover;
+}
 /* aggiunta proprietà clearfix */
 
 .parte-centrale::after{
