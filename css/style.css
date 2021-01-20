@@ -119,21 +119,17 @@ body{
 
 /* formattazione immagini del main */
 .immagini-main{
-  height:215.83px;
   width:100%;
   position:relative;
 }
 .immagini-main img{
 width:100%;
-height:100%;
+height:180px;
+object-fit: cover;
 }
 
-#immagine-lampadina{
-  object-fit: cover;
-}
-#banner-main{
-  object-fit: cover;
-}
+
+
 /* aggiunta proprietà clearfix */
 
 .parte-centrale::after{
