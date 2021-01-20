@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* formattazione contenitore centrale */
+.conteiner{
+  width:80%;
+  margin: 10px auto;
+}
+/* formattazione header */
+.intestazione-sito{
+  background-color:#E579E6;
+  height:10vh;
+  margin-bottom: 10px;
+}
+/* formattazione sezione con immagine principale */
+.banner{
+  margin-bottom: 10px;
+}
+.banner img{
+  width:100%;
+}
+
+/* formattazione sezione centrale */
+.titolo-sezione, .colonna {
+  background-color: #ABCFE7;
+  margin-bottom: 2%;
+}
+.titolo-sezione {
+  height:5vh;  
+}
+
+.parte-centrale{
+  background-color: #0483FE;
+}
+
+.colonna{
+  height:60vh;
+  float:left;
+}
+
+.c-sinistra, .c-destra{
+  width:24%;
+}
+
+.c-centrale{
+  width:48%;
+  margin: 0 2%;
+}
+/* aggiunta proprietà clearfix */
+
+.parte-centrale::after{
+  display:block;
+  content:"";
+  clear:both;
+}
+
+/* formattazione del footer */
+
+.credits{
+  margin-top: 5px;
+  background-color: #8801FE;
+}
