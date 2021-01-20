@@ -14,23 +14,25 @@ body{
   text-transform: uppercase;
 }
 .testo-immagine p{
-  color:#fff
+  color:#fff;
+  font-size: 14px;
 }
 
 .testo-immagine :first-child{
   font-size: 28px;
-}
-.testo-immagine p{
-  font-size: 14px;
 }
 
 .titolo-sezione h2 {
   font-size: 34px;
   font-family: 'Montserrat', sans-serif;
 }
-.titolo-sezione p {
+.titolo-sezione p, .colonna p  {
   font-size: 14px;
   color: #929292;
+}
+.immagini-main + p {
+  color:#000;
+  margin: 10px 0;
 }
 /* formattazione contenitore centrale */
 .conteiner{
@@ -95,7 +97,6 @@ body{
 .colonna{
   height:80vh;
   float:left;
-  background-color: #ABCFE7;
   margin-bottom: 2%;
 }
 
