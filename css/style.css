@@ -24,6 +24,14 @@ body{
   font-size: 14px;
 }
 
+.titolo-sezione h2 {
+  font-size: 34px;
+  font-family: 'Montserrat', sans-serif;
+}
+.titolo-sezione p {
+  font-size: 14px;
+  color: #929292;
+}
 /* formattazione contenitore centrale */
 .conteiner{
   width:80%;
@@ -54,7 +62,7 @@ body{
 
 /* formattazione sezione con immagine principale */
 .banner{
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   height:70vh;
   width:100%;
   background-image: url('../img/banner.jpg');
@@ -81,21 +89,14 @@ body{
 }
 
 /* formattazione sezione centrale */
-.titolo-sezione, .colonna {
-  background-color: #ABCFE7;
-  margin-bottom: 2%;
+.titolo-sezione{
+  margin-bottom: 40px;
 }
-.titolo-sezione {
-  height:5vh;
-}
-
-.parte-centrale{
-  background-color: #0483FE;
-}
-
 .colonna{
   height:60vh;
   float:left;
+  background-color: #ABCFE7;
+  margin-bottom: 2%;
 }
 
 .c-sinistra, .c-destra{
