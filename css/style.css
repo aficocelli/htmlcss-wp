@@ -7,16 +7,17 @@
 /* formattazione contenitore centrale */
 .conteiner{
   width:80%;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 /* formattazione header */
 .intestazione-sito{
-  background-color:#E579E6;
   margin-bottom: 10px;
 }
 /* formattazione logo */
 .contenitore-logo{
   width:15%;
+  border-right: 2px solid rgba(230, 230, 230, 0.5);
+  padding-right:10px;
 }
 .contenitore-logo img {
   width:100%;
