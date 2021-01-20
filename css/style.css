@@ -12,9 +12,16 @@
 /* formattazione header */
 .intestazione-sito{
   background-color:#E579E6;
-  height:10vh;
   margin-bottom: 10px;
 }
+/* formattazione logo */
+.contenitore-logo{
+  width:15%;
+}
+.contenitore-logo img {
+  width:100%;
+}
+
 /* formattazione sezione con immagine principale */
 .banner{
   margin-bottom: 10px;
@@ -29,7 +36,7 @@
   margin-bottom: 2%;
 }
 .titolo-sezione {
-  height:5vh;  
+  height:5vh;
 }
 
 .parte-centrale{
