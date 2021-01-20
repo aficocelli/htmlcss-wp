@@ -4,6 +4,17 @@
   box-sizing:border-box;
 }
 
+/* layout testi */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.menu-principale a{
+  text-decoration: none;
+  color:#858585;
+  text-transform: uppercase;
+}
+
+
 /* formattazione contenitore centrale */
 .conteiner{
   width:80%;
@@ -22,6 +33,16 @@
 .contenitore-logo img {
   width:100%;
 }
+/* formattazione menu */
+.menu-principale {
+  margin: 40px 0;
+}
+.menu-principale ul li {
+  display:inline-block;
+  list-style: none;
+  margin-right: 10px;
+}
+
 
 /* formattazione sezione con immagine principale */
 .banner{
