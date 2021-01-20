@@ -14,7 +14,6 @@ body{
   text-transform: uppercase;
 }
 
-
 /* formattazione contenitore centrale */
 .conteiner{
   width:80%;
@@ -43,13 +42,26 @@ body{
   margin-right: 10px;
 }
 
-
 /* formattazione sezione con immagine principale */
 .banner{
   margin-bottom: 10px;
-}
-.banner img{
+  height:70vh;
   width:100%;
+  background-image: url('../img/banner.jpg');
+  background-position: center;
+
+  position: relative;
+}
+/* effetto overlay */
+.overlay
+{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 /* formattazione sezione centrale */
